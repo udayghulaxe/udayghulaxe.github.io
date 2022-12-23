@@ -1,0 +1,18 @@
+@import '../../styles/variables.scss';
+
+.google-login__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid $color-primary;
+    padding: 0px 14px 2px;
+    font-size: 14px;
+    font-weight: 500;
+    height: 38px;
+    .google-login__icon {
+        width: 24px;
+        height: 24px;
+        margin-right: 4px;
+    }
+}
+

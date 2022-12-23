@@ -1,0 +1,25 @@
+@import '../../styles/variables';
+
+.calendar-events__container {
+    margin-bottom: 100px;
+    header {
+        .col {
+            font-size: 16px;
+            font-weight: 600;
+        }
+    }
+    .col {
+        border: 1px solid grey;
+        padding: 10px;
+    }
+    .col:first-of-type {
+        flex: 1 1 30%;
+    }
+    .col:not(:first-of-type) {
+        flex: 1 1 20%;
+    }
+    .row {
+        display: flex;
+        justify-content: space-between;
+    }
+}
